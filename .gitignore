@@ -6,3 +6,4 @@ __pycache__/
 .venv/
 pip-wheel-metadata/
 .DS_Store
+models/

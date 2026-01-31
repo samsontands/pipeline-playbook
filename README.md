@@ -14,7 +14,7 @@ The Pipeline Playbook documents a full data-science workflow so visitors can fol
 ## Current Pipeline Focus
 1. **Data ingestion** — `data/raw/mpg.csv` is sourced from the Seaborn collection and snapshot locally.
 2. **Exploration** — `reports/initial-eda.md` narrates the distributional profile and missingness checks.
-3. **Modeling** — A baseline regression targets `mpg`, with results surfaced in `reports/model-summary.md`.
+3. **Modeling** — Baseline regression + Random Forest trained on engineered predictors; results recorded in `reports/modeling-summary.md`.
 4. **Diagnostics** — Residual analysis lives in `reports/residuals.md` and the accompanying figure (`reports/figures/residuals.png`).
 5. **Presentation** — Reserved space for dashboards or summary write-ups that will highlight the insights.
 
