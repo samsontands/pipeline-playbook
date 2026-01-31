@@ -8,6 +8,6 @@ This document tracks the planned steps for ongoing pipeline work. Each entry is 
 - **Modeling** — train a linear regression and Random Forest on the engineered predictors, capture metrics, and document the comparisons in `reports/modeling-summary.md`.
 - **Diagnostics** — residual analysis + figure in `reports/residuals.md` and `reports/figures/residuals.png` to validate the baseline.
 - **Feature engineering** — enrich the dataset with ratios, polynomial terms, and one-hot origin flags; save the output to `data/processed/features.csv` and document the choices in `reports/features.md`.
-- **Presentation** — build a narrative section with figures and summary text so the modeling story can live in a blog-style report or dashboard.
+- **Presentation** — build a narrative section (`reports/presentation.md`) that highlights ingestion, features, modeling, diagnostics, and includes the plot gallery.
 
 As each step completes, the notes here can be expanded with results, references to new scripts, or links to artifacts.
