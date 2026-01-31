@@ -9,7 +9,8 @@ The Pipeline Playbook documents a full data-science workflow so visitors can fol
 - `src/` — reusable scripts (ingestion, wrangling, modeling).
 - `reports/` — Markdown summaries, feature notes, model metrics, and presentation artifacts.
 - `notebooks/` — optional exploratory notebooks and drafts.
-- `docs/` — plans, iteration notes, and automation docs that explain the manual run order.
+- `docs/` — plans, iteration notes, automation docs, and presentation instructions.
+- `presentation_app.py` — lightweight Streamlit interface for exploring predictions, diagnostics, and scenarios.
 
 ## Current Pipeline Focus
 1. **Data ingestion** — `data/raw/mpg.csv` is sourced from the Seaborn collection and snapshot locally.

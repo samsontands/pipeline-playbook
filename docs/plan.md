@@ -9,7 +9,7 @@ This document tracks the planned steps for ongoing pipeline work. Each entry is 
 - **Diagnostics** — residual analysis + figure in `reports/residuals.md` and `reports/figures/residuals.png` to validate the baseline.
 - **Interpretability** — run permutation importance scripts to rank engineered predictors and summarize them in `reports/interpretability.md` (plots saved in `reports/figures`).
 - **Feature engineering** — enrich the dataset with ratios, polynomial terms, and one-hot origin flags; save the output to `data/processed/features.csv` and document the choices in `reports/features.md`.
-- **Presentation** — build a narrative section (`reports/presentation.md`) that highlights ingestion, features, modeling, diagnostics, and includes the plot gallery.
+- **Presentation** — build a narrative section (`reports/presentation.md`) that highlights ingestion, features, modeling, diagnostics, and includes the plot gallery, plus launch a Streamlit explorer (`presentation_app.py`).
 - **Automation notes** — record the script order and dependencies in `docs/automation.md` so others can rerun the pipeline.
 
 As each step completes, the notes here can be expanded with results, references to new scripts, or links to artifacts.
