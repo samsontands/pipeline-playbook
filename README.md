@@ -5,7 +5,7 @@ The Pipeline Playbook documents a full data-science workflow so visitors can fol
 ## Structure
 
 - `data/raw/` — archived snapshots of the original datasets.
-- `data/processed/` — clean, analysis-ready tables for modeling or visualization.
+- `data/processed/` — clean, analysis-ready tables for modeling or visualization, including one-hot encoded and derived predictors.
 - `src/` — reusable scripts (ingestion, wrangling, modeling).
 - `reports/` — Markdown summaries, feature notes, model metrics, and presentation artifacts.
 - `notebooks/` — optional exploratory notebooks and drafts.
