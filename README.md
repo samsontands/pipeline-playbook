@@ -16,7 +16,9 @@ The Pipeline Playbook documents a full data-science workflow so visitors can fol
 2. **Exploration** — `reports/initial-eda.md` narrates the distributional profile and missingness checks.
 3. **Modeling** — Baseline regression + Random Forest trained on engineered predictors; results recorded in `reports/modeling-summary.md`.
 4. **Diagnostics** — Residual analysis lives in `reports/residuals.md` and the accompanying figure (`reports/figures/residuals.png`).
-5. **Presentation** — `reports/presentation.md` synthesizes the full workflow, showcases the plots, and calls out next steps.
+5. **Diagnostics** — Residual analysis lives in `reports/residuals.md` and `reports/figures/residuals.png`.
+6. **Interpretability** — `reports/interpretability.md` summarizes permutation importance across the linear regression and Random Forest models, with charts in `reports/figures/`.
+7. **Presentation** — `reports/presentation.md` synthesizes the full workflow, showcases the plots, and calls out next steps.
 
 ## Upcoming work
 - Residual checks and figure export (reports/figures/)
