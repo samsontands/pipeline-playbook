@@ -12,4 +12,4 @@ This document tracks the planned steps for ongoing pipeline work. Each entry is 
 - **Presentation** — build a narrative section (`reports/presentation.md`) that highlights ingestion, features, modeling, diagnostics, and includes the plot gallery, plus launch a Streamlit explorer (`presentation_app.py`).
 - **Automation notes** — record the script order and dependencies in `docs/automation.md` so others can rerun the pipeline.
 
-As each step completes, the notes here can be expanded with results, references to new scripts, or links to artifacts.
+As each step completes, the notes here can be expanded with results, references to new scripts, links to artifacts, and updates to the schedule (`docs/schedule.md`).

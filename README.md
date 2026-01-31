@@ -9,7 +9,7 @@ The Pipeline Playbook documents a full data-science workflow so visitors can fol
 - `src/` — reusable scripts (ingestion, wrangling, modeling).
 - `reports/` — Markdown summaries, feature notes, model metrics, and presentation artifacts.
 - `notebooks/` — optional exploratory notebooks and drafts.
-- `docs/` — plans, iteration notes, automation docs, and presentation instructions.
+- `docs/` — plans, iteration notes, automation docs, presentation instructions, and the upcoming sprint schedule (`docs/schedule.md`).
 - `presentation_app.py` — lightweight Streamlit interface for exploring predictions, diagnostics, and scenarios.
 
 ## Current Pipeline Focus
