@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+.env
+.venv/
+pip-wheel-metadata/
+.DS_Store
+reports/figures/
