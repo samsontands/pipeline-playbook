@@ -12,6 +12,21 @@ The Pipeline Playbook documents a full data-science workflow so visitors can fol
 - `docs/` — plans, iteration notes, automation docs, presentation instructions, and the upcoming sprint schedule (`docs/schedule.md`).
 - `presentation_app.py` — lightweight Streamlit interface for exploring predictions, diagnostics, and scenarios.
 
+## Streamlit Explorer usability review (Sprint 2026-02-01)
+The Streamlit interface is intentionally lightweight and focuses on making the pipeline story accessible:
+
+- **Model switcher + data preview** — the sidebar lets stakeholders pick between the linear regression and Random Forest artifacts while peeking at the median-feature sample so they can orient themselves without digging into the data folder.
+- **Scenario builder** — the interactive form starts with medians, supports rapid tuning of engineered predictors, and responds with an instantly updated `st.metric`, which makes it intuitive to compare how each input moves MPG predictions.
+- **Diagnostics gallery** — the carousel-style diagnostics section pulls in the saved residuals and prediction snapshots (`reports/figures/`), which keeps the narrative connected to the documented training runs without rebuilding the charts inside the app.
+- **Narrative recap** — the lower section restates the highlight bullets from the Markdown presentation, reinforcing the ingestion → modeling → diagnostics storyline for anyone who lands on the Streamlit interface.
+
+### Summary screenshots
+![Random Forest predictions vs actual](reports/figures/random_forest-predictions.png)
+*Figure 1: The diagnostics gallery doubles as a quick sanity check for model output, showing the Random Forest prediction distribution that the user can compare against the Linear Regression pane.*
+
+![Residuals plot](reports/figures/residuals.png)
+*Figure 2: Residual checks surface immediately below the scenario builder, so stakeholders can keep an eye on modeling stability while exploring different feature combinations.*
+
 ## Current Pipeline Focus
 1. **Data ingestion** — `data/raw/mpg.csv` is sourced from the Seaborn collection and snapshot locally.
 2. **Exploration** — `reports/initial-eda.md` narrates the distributional profile and missingness checks.
